@@ -1,0 +1,104 @@
+/*resertando o site*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5A9F2;
+  font-family: Sans-Serif;
+  overflow: hidden;
+}
+
+/* flex box para alinhar tudo */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/*o bloco branco em si*/
+.bloco1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+  gap: 10px;
+}
+
+/*estilização "Orkut"*/
+.titulo {
+  color: #FF0080;
+  font-size: 40px;
+}
+
+/*texto normal*/
+.texto {
+  color: #BDBDBD;
+}
+
+/*estilizaçãodo conecte-se com o facebook*/
+.facebook {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  padding: 8px;
+  width: 100%;
+  background-color: #58ACFA;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*alinhando e espaçando os inputs e o botão*/
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/*estilização dos inputs*/
+.item {
+  padding: 15px;
+  background-color: #FAFAFA;
+  border: none;
+  width: 350px;
+}
+
+/*estilização do botão cadastre-se*/
+.botao {
+  padding: 18px;
+  border: none;
+  width: 100%;
+  background-color: #FF0080;
+  border-radius: 15px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+/*o bloco branco em si*/
+.bloco2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+/*texto normal*/
+.texto2 {
+  color: white;
+}
+
+/*links*/
+.link {
+  color: #58ACFA;
+}
